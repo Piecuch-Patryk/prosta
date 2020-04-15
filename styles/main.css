@@ -62,7 +62,7 @@ ul {
 footer {
     background-color: rgb(30, 30, 37);
     color: #fff;
-    padding: 3rem 0;
+    padding: 3rem .5rem;
     text-align: center;
 }
 .footer-list {
@@ -71,6 +71,7 @@ footer {
 }
 .list-el-footer {
     padding: 0 .5rem;
+    flex-basis: 33.3%;
 }
 .list-span-footer {
     position: relative;
