@@ -5,47 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prosta</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
 </head>
 <body>
     <header>
-        <img src="./img/logo.png" alt="logo">
-        <ul>
-            <li><a href="+48600712600">+48 600 712 600</a></li>
-            <li><a href="mailto:prostapunkt@gmail.com">prostapunkt@gmail.com</a></li>
-        </ul>
-        <img src="./img/hero_image.png" alt="obrazek - pomagamy osobom zadłużonym">
+        <div class="top-bar">
+            <img src="./img/logo.png" class="logo" alt="logo">
+            <ul>
+                <li class="contact-el"><a href="+48600712600">+48 600 712 600</a></li>
+                <li class="contact-el"><a href="mailto:prostapunkt@gmail.com">prostapunkt@gmail.com</a></li>
+            </ul>
+        </div>
+        <img src="./img/hero_image.png" class="hero-img" alt="obrazek - pomagamy osobom zadłużonym">
     </header>
 
-    <main>
-        <h1>Komornik na karku?</h1>
+    <main class="main-container">
+        <aside class="mobile-hidden">
+            <i class="fas fa-quote-left"></i>
+            Uchroń się przed utratą majątku
+            <i class="fas fa-quote-right"></i>
+        </aside>
+        <h1 class="title">Komornik na karku?</h1>
         <p>
             Pomagamy osobom zadłużonym, przeciwko którym 
             <span>komornik wszczyna postępowanie egzekucyjne, zajmując nieruchmość.</span>
             Każda sprawa jest rozpatrywana indywidualnie, dlatego w zależności od Twojej sytuacji doradzimy najlepsze rozwiązania, zwiększając Twoje szanse na uniknięcie postępowania egzekucyjnego.
         </p>
-        <div>
-            <i class="fas fa-quote-left"></i>
-            Uchroń się przed utratą majątku
-            <i class="fas fa-quote-right"></i>
-        </div>
     </main>
 
     <footer>
-        <ul>
-            <li>
-                <span><i class="fas fa-plus"></i>rzetelnie</span>
-                Jesteśmy w stanie zaproponować sprawdzone i niezawodne roziązania.
+        <ul class="footer-list">
+            <li class="list-el-footer">
+                <span class="list-span-footer"><i class="fas fa-plus"></i>rzetelnie</span>
+                <p class="list-paragraph">
+                    Jesteśmy w stanie zaproponować sprawdzone i niezawodne roziązania.
+                </p>
             </li>
-            <li>
-                <span><i class="fas fa-plus"></i>legalnie</span>
-                Działamy z poszanowaniem prawa.
+            <li class="list-el-footer">
+                <span class="list-span-footer"><i class="fas fa-plus"></i>legalnie</span>
+                <p class="list-paragraph">
+                    Działamy z poszanowaniem prawa.
+                </p>
             </li>
-            <li>
-                <span><i class="fas fa-plus"></i>korzystnie</span>
-                Oferujemy możliwość odsprzedaży nieruchomości oraz pokrycie kosztów lokalu zastępczego.
+            <li class="list-el-footer">
+                <span class="list-span-footer"><i class="fas fa-plus"></i>korzystnie</span>
+                <p class="list-paragraph">
+                    Oferujemy możliwość odsprzedaży nieruchomości oraz pokrycie kosztów lokalu zastępczego.
+                </p>
             </li>
         </ul>
-        <p>
+        <p class="footer-paragraph">
             prosta</br>
             punkt pomocy finansowej
         </p>
