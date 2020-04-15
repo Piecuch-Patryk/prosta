@@ -39,7 +39,20 @@ ul {
 .title {
     padding: 1rem;
 }
-
+.text-colored {
+    position: relative;
+    letter-spacing: 1px;
+}
+.text-colored::after {
+    content: '';
+    position: absolute;
+    bottom: -.2rem;
+    left: -.2rem;
+    width: calc(100% + 3px);
+    height: 45%;
+    z-index: -1;
+    background-color: rgba(251, 185, 26, .5);
+}
 
 .mobile-hidden {
     display: none;
@@ -83,6 +96,6 @@ footer {
     margin: auto;
     text-transform: uppercase;
     padding-top: 1rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     border-top: 1px solid #fff;
 }
